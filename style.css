@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(246, 247, 185);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titleClass{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+    margin: auto;
+    margin-top: 80px;
+}
+.grid-item {
+    border: 4px solid;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 0 4px;
+    text-align: center;
+}
+.messageClass {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+}
+.restartBtn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.6);
+    z-index: 1001;
+}
+
+#popup {
+    width: 325px;
+    height: 180px;
+    background: #FFFFFF;
+    border: 5px solid #000;
+    margin: auto;
+    margin-top: 25em;
+}
+#popup {
+    text-align: center;
+}
