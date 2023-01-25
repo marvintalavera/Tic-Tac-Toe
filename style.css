@@ -1,54 +1,41 @@
-body {
-    background-color: rgb(246, 247, 185);
+
+.grid{
+    width: 150px;
+    height: 150px;
+    border: 4px solid;
+    box-shadow: 0 0 0 4px;
+    font-size: 100px;
+    cursor: pointer;
+}
+#gameBlock{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.titleClass{
     text-align: center;
-    font-size: 60px;
-    margin-top: 50px;
 }
-.gridContainer {
+#gridBlock{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 450px;
     margin: auto;
-    margin-top: 80px;
 }
-.grid-item {
-    border: 4px solid;
-    width: 150px;
-    height: 150px;
-    box-shadow: 0 0 0 4px;
+body{
+    background-color: rgb(246, 247, 185);
+}
+.title{
+    font-size: 90px;
+    margin-top: 30px;
+}
+#messageID{
+    font-size: 50px;
+    margin-top: 40px;
+}
+#restart{
+    background-color: rgb(246, 247, 185);;
+    border: 3px solid;
+    color: rgb(0, 0, 0);
+    padding: 4px 18px;
     text-align: center;
-}
-.messageClass {
-    font-size: 18px;
-    text-align: center;
-    margin-top: 60px;
-}
-.restartBtn {
-    text-align: center;
-    margin-top: 50px;
-}
-
-#wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,.6);
-    z-index: 1001;
-}
-
-#popup {
-    width: 325px;
-    height: 180px;
-    background: #FFFFFF;
-    border: 5px solid #000;
-    margin: auto;
-    margin-top: 25em;
-}
-#popup {
-    text-align: center;
+    font-size: 20px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
 }
