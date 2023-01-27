@@ -1,8 +1,7 @@
-
-const grids = document.querySelectorAll(".grid");
-const message = document.querySelector("#messageID");
-const restart = document.querySelector("#restart");
-const winnerBlock = [
+let grids = document.querySelectorAll(".grid");
+let message = document.querySelector("#messageID");
+let restart = document.querySelector("#restart");
+let winnerBlock = [
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
